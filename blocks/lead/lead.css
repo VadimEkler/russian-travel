@@ -1,0 +1,13 @@
+.lead {
+  margin: 38px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin: 46px 0 0 0;
+  }
+}

@@ -1,0 +1,18 @@
+.places__website{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .places__website {
+    font-size: 42px;
+    line-height: 46px;
+    grid-row: 1;
+    grid-column: 2;
+    align-self: end;
+    margin: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.places__image {
+  width: 100vw;
+  object-fit: contain;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .places__image {
+    max-width: 340px;
+    max-height: 340px;
+    grid-row: 2;
+    grid-column: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__image {
+    max-width: 440px;
+    max-height: 440px;
+    grid-row: 2;
+    grid-column: 1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places__image {
+    max-width: 460px;
+    max-height: 460px;
+    grid-row: 2;
+    grid-column: 1;
+  }
+}

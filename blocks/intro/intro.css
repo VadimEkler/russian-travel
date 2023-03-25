@@ -1,0 +1,29 @@
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 64px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    width: 94%;
+    margin: 88px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    justify-content: start;
+    width: 90%;
+    margin: 91px auto 94px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    justify-content: start;
+    width: 77%;
+    margin: 94px auto 91px auto;
+  }
+}

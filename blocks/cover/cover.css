@@ -1,0 +1,10 @@
+.cover {
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 93%;
+    margin: 0 auto;
+  }
+}
