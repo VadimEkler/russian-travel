@@ -18,9 +18,9 @@
   gap: 16px;
 }
 
-/*.cover__link:hover {
+.cover__link:hover {
   cursor: pointer;
-}*/
+}
 
 .cover__link::before {
   content: "";
