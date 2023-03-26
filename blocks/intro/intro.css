@@ -22,7 +22,6 @@
 
 @media screen and (min-width: 1280px) {
   .intro {
-    justify-content: start;
     width: 77%;
     margin: 94px auto 91px auto;
   }

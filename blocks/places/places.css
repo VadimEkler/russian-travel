@@ -27,7 +27,7 @@
 @media screen and (min-width: 1280px){
   .places {
     grid-template-columns: 984px;
-    margin: 90px auto;
+    margin: 92px auto;
   }
 }
 
