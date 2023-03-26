@@ -17,8 +17,6 @@
   .places__image {
     max-width: 440px;
     max-height: 440px;
-    grid-row: 2;
-    grid-column: 1;
   }
 }
 
@@ -26,7 +24,5 @@
   .places__image {
     max-width: 460px;
     max-height: 460px;
-    grid-row: 2;
-    grid-column: 1;
   }
 }
