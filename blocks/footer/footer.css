@@ -1,16 +1,16 @@
 .footer {
   margin: 64px auto 16px auto;
-  padding: 0 0 24px;
+  padding: 0;
   width: 90%;
   display: flex;
-  gap: 36px;
+  gap: 48px;
   flex-direction: column;
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
-    margin: 78px auto 12px auto;
+    margin: 88px auto 12px auto;
     width: 93%;
     flex-direction: row;
     justify-content: space-between;
@@ -21,13 +21,13 @@
 
 @media screen and (min-width: 1024px) {
   .footer {
+    margin: 92px auto 24px auto;
     width: 90%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-    margin: 79px auto 24px auto;
     width: 92%;
   }
 }
